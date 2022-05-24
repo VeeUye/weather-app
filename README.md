@@ -1,4 +1,4 @@
-# Weather App
+# Weather App 🌧
 
 This app is being created as part of the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
 
