@@ -1,9 +1,10 @@
 # Weather App 🌧
 
 This app is being created as part of the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
+
 The README will be updated as the project progresses.
 
-Concepts to be covered during this lerning project include:
+Concepts to be covered during this learning project include:
 
 - React
 - JSX
