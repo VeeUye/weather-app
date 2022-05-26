@@ -1,8 +1,10 @@
 # Weather App 🌧
 
-This app is being created as part of the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
+This 5 day weather forecasting app is being created as part of the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
 
 The README will be updated as the project progresses.
+
+# Learning Concepts
 
 Concepts to be covered during this learning project include:
 
