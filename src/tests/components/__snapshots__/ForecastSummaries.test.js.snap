@@ -7,6 +7,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
   >
     <div
       class="forecast-summary"
+      data-testid="forecast-summary"
     >
       <div
         class="forecast-summary__date"
@@ -32,6 +33,7 @@ exports[`ForecastSummaries renders correctly 1`] = `
     </div>
     <div
       class="forecast-summary"
+      data-testid="forecast-summary"
     >
       <div
         class="forecast-summary__date"
