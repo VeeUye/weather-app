@@ -22,3 +22,5 @@ App.propTypes = {
     // eslint-disable-next-line prettier/prettier
   }).isRequired
 };
+
+// TODO reconfigure linters //
