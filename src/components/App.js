@@ -5,6 +5,7 @@ import LocationDetails from "./LocationDetails";
 
 function App({ location }) {
   const { city, country } = location;
+
   return (
     <div className="App">
       <LocationDetails city={city} country={country} />
@@ -17,10 +18,6 @@ export default App;
 App.propTypes = {
   location: PropTypes.shape({
     city: PropTypes.string,
-    // eslint-disable-next-line prettier/prettier
-    country: PropTypes.string
-    // eslint-disable-next-line prettier/prettier
-  }).isRequired
+    country: PropTypes.string,
+  }).isRequired,
 };
-
-// TODO reconfigure linters //

@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -11,5 +10,5 @@ export default LocationDetails;
 
 LocationDetails.propTypes = {
   city: PropTypes.string.isRequired,
-  country: PropTypes.string.isRequired
+  country: PropTypes.string.isRequired,
 };
