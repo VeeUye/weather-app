@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ForecastSummary from "./ForecastSummary";
+import "../styles/ForecastSummaries.css";
 
 function ForecastSummaries({ forecasts }) {
   return (
@@ -35,5 +36,5 @@ ForecastSummaries.propTypes = {
 };
 
 ForecastSummaries.defaultProps = {
-  forecasts: { date: "1111111" },
+  forecasts: { date: 1111111 },
 };
