@@ -42,13 +42,13 @@ describe("ForecastDetails", () => {
       "class",
       "forecast-details__date"
     );
-    expect(getByText("22˚C")).toHaveAttribute(
+    expect(getByText("22")).toHaveAttribute(
       "class",
-      "forecast-details__temperature"
+      "forecast-details__temperature-max"
     );
     expect(getByText("12˚C")).toHaveAttribute(
       "class",
-      "forecast-details__temperature"
+      "forecast-details__temperature-min"
     );
     expect(getByText("80%")).toHaveAttribute(
       "class",
