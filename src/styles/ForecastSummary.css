@@ -1,0 +1,16 @@
+.button {
+  margin: 5px 0px 0px 0px;
+  padding-left: 2px;
+}
+
+.forecast-summary__date {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forecast-summary__icon {
+  margin: 10px 0px;
+  font-size: 35px;
+  font-weight: bold;
+}
+/* TODO: think about cascade */

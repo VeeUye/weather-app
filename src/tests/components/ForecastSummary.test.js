@@ -33,6 +33,7 @@ describe("ForecastSummary", () => {
         description={validProps.description}
         icon={validProps.icon}
         temperature={validProps.temperature}
+        onSelect={validProps.onSelect}
       />
     );
 
