@@ -1,5 +1,3 @@
-/* eslint-disable  no-unused-vars */
-
 import "../styles/App.css";
 import React, { useState } from "react";
 import { PropTypes } from "prop-types";
@@ -9,19 +7,24 @@ import ForecastDetails from "./ForecastDetails";
 
 function App({ location, forecasts }) {
   const { city, country } = location;
+
   const [selectedDate, setSelectedDate] = useState(forecasts[0].date);
+
   const selectedForecast = forecasts.find(
     (forecast) => forecast.date === selectedDate
   );
 
-  function handleForecastSelect(date) {
+  const handleForecastSelect = (date) => {
     setSelectedDate(date);
-  }
+  };
 
   return (
     <div className="weather-app">
       <LocationDetails city={city} country={country} />
-      <ForecastSummaries forecasts={forecasts} />
+      <ForecastSummaries
+        forecasts={forecasts}
+        onForecastSelect={handleForecastSelect}
+      />
       <ForecastDetails forecast={selectedForecast} />
     </div>
   );
