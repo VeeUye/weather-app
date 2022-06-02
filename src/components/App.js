@@ -1,10 +1,9 @@
 import "../styles/App.css";
 import React, { useEffect, useState } from "react";
-// import { PropTypes } from "prop-types";
-import axios from "axios";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
 import ForecastDetails from "./ForecastDetails";
+import getForecast from "../requests/getForecast";
 
 function App() {
   const [forecasts, setForecasts] = useState([]);
@@ -19,18 +18,8 @@ function App() {
     setSelectedDate(date);
   };
 
-  const getForecast = () => {
-    const endpoint = "https://mcr-codes-weather-app.herokuapp.com/forecast";
-
-    axios.get(endpoint).then((response) => {
-      setSelectedDate(response.data.forecasts[0].date);
-      setForecasts(response.data.forecasts);
-      setLocation(response.data.location);
-    });
-  };
-
   useEffect(() => {
-    getForecast();
+    getForecast(setSelectedDate, setForecasts, setLocation);
   }, []);
 
   return (
