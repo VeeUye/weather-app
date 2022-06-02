@@ -33,6 +33,7 @@ ForecastSummaries.propTypes = {
       }),
     })
   ),
+  onForecastSelect: PropTypes.func.isRequired,
 };
 
 ForecastSummaries.defaultProps = {

@@ -11,14 +11,17 @@ function App({ location, forecasts }) {
   const selectedForecast = forecasts.find(
     (forecast) => forecast.date === selectedDate
   );
-  const handleForecastSelect = (date) => {
+  function handleForecastSelect(date) {
     setSelectedDate = date;
-  };
+  }
 
   return (
     <div className="weather-app">
       <LocationDetails city={city} country={country} />
-      <ForecastSummaries forecasts={forecasts} />
+      <ForecastSummaries
+        forecasts={forecasts}
+        onForecastSelect={handleForecastSelect()}
+      />
       <ForecastDetails forecast={selectedForecast} />
     </div>
   );
