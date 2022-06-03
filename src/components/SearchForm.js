@@ -1,3 +1,5 @@
+// TODO add enter to sumbit button
+
 import PropTypes from "prop-types";
 import React from "react";
 import "../styles/SearchForm.css";
@@ -17,7 +19,6 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
         Search
       </button>
     </div>
-    // </form>
   );
 }
 
