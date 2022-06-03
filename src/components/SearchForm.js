@@ -13,7 +13,7 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
         onChange={handleInputChange}
         value={searchText}
       />
-      <button type="submit" onClick={onSubmit}>
+      <button type="submit" data-testid="button-text" onClick={onSubmit}>
         Search
       </button>
     </div>
