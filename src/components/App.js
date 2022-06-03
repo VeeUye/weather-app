@@ -14,6 +14,7 @@ function App() {
 
   useEffect(() => {
     getForecast(searchText, setSelectedDate, setForecasts, setLocation);
+    // TODO understand why this lint issue occurs
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

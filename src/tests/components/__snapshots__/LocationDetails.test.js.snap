@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationDetail renders correctly 1`] = `
+<DocumentFragment>
+  <h1>
+    Manchester, UK
+  </h1>
+</DocumentFragment>
+`;
