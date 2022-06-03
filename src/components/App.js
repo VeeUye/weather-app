@@ -11,6 +11,9 @@ function App() {
   const [location, setLocation] = useState({ city: "", country: "" });
   const [selectedDate, setSelectedDate] = useState(0);
   const [searchText, setSearchText] = useState("");
+  const handleCitySearch = () => {
+    getForecast(setSelectedDate, setForecasts, setLocation);
+  };
 
   const selectedForecast = forecasts.find(
     (forecast) => forecast.date === selectedDate
