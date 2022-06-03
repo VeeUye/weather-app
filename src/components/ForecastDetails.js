@@ -6,7 +6,7 @@ function ForecastDetails({ forecast }) {
   const { date, humidity, temperature, wind } = forecast;
   const formattedDate = new Date(date).toDateString();
   return (
-    <div className="forecast-details" data-testid="forecast-details">
+    <div className="forecast-details">
       <div className="forecast-details__date">
         <p className="forecast-details__date">{formattedDate}</p>
       </div>

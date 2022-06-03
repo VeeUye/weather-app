@@ -4,7 +4,6 @@ exports[`ForecastDetails renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="forecast-details"
-    data-testid="forecast-details"
   >
     <div
       class="forecast-details__date"

@@ -8,12 +8,13 @@ describe("SearchForm", () => {
     setSearchText: () => {},
     onSubmit: () => {},
   };
+
   it("render correctly", () => {
     const { asFragment } = render(
       <SearchForm
         searchText={validProps.searchText}
         setSearchText={validProps.setSearchText}
-        onSubmit={validProps.handleCitySearch}
+        onSubmit={validProps.onSubmit}
       />
     );
 
@@ -25,7 +26,7 @@ describe("SearchForm", () => {
       <SearchForm
         searchText={validProps.searchText}
         setSearchText={validProps.setSearchText}
-        onSubmit={validProps.handleCitySearch}
+        onSubmit={validProps.onSubmit}
       />
     );
 
