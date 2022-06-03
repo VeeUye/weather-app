@@ -36,7 +36,6 @@ function App() {
       setLocation,
       setErrorMessage
     );
-    console.log("here");
   };
 
   return (
