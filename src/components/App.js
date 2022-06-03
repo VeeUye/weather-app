@@ -29,7 +29,13 @@ function App() {
   };
 
   const handleCitySearch = () => {
-    getForecast(searchText, setSelectedDate, setForecasts, setLocation);
+    getForecast(
+      searchText,
+      setSelectedDate,
+      setForecasts,
+      setLocation,
+      setErrorMessage
+    );
   };
 
   return (
@@ -44,31 +50,17 @@ function App() {
         setSearchText={setSearchText}
         onSubmit={handleCitySearch}
       />
-      <ForecastSummaries
-        forecasts={forecasts}
-        onForecastSelect={handleForecastSelect}
-      />
-      {selectedForecast && <ForecastDetails forecast={selectedForecast} />}
+      {!errorMessage && (
+        <>
+          <ForecastSummaries
+            forecasts={forecasts}
+            onForecastSelect={handleForecastSelect}
+          />
+          {selectedForecast && <ForecastDetails forecast={selectedForecast} />}
+        </>
+      )}
     </div>
   );
 }
 
 export default App;
-
-// App.propTypes = {
-//   forecasts: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       date: PropTypes.number,
-//       description: PropTypes.string,
-//       icon: PropTypes.string,
-//       temperature: PropTypes.shape({
-//         max: PropTypes.number,
-//         min: PropTypes.number,
-//       }),
-//     })
-//   ).isRequired,
-//   location: PropTypes.shape({
-//     city: PropTypes.string,
-//     country: PropTypes.string,
-//   }).isRequired,
-// };
