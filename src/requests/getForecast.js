@@ -4,7 +4,8 @@ const getForecast = (
   searchText,
   setSelectedDate,
   setForecasts,
-  setLocation
+  setLocation,
+  setErrorMessage
 ) => {
   let endpoint = "https://mcr-codes-weather-app.herokuapp.com/forecast";
 
@@ -22,13 +23,12 @@ const getForecast = (
     .catch((error) => {
       const { status } = error.response;
       if (status === 404) {
-        console.error(
-          "The city was not found. Check for typos and that the city is located within the UK.",
-          error
-        );
+        setErrorMessage("No such town or city in the UK. Please try again.");
+        console.error("Location invalid", error);
       }
       if (status === 500) {
-        console.error("Something went wrong on the server side.", error);
+        setErrorMessage("Oops, server error. Please try again later.");
+        console.error("Server error", error);
       }
     });
 };

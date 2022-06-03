@@ -1,3 +1,5 @@
+// TODO understand why lint issue occurs
+
 import "../styles/App.css";
 import React, { useEffect, useState } from "react";
 import LocationDetails from "./LocationDetails";
@@ -11,10 +13,10 @@ function App() {
   const [location, setLocation] = useState({ city: "", country: "" });
   const [selectedDate, setSelectedDate] = useState(0);
   const [searchText, setSearchText] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
     getForecast(searchText, setSelectedDate, setForecasts, setLocation);
-    // TODO understand why this lint issue occurs
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -32,7 +34,11 @@ function App() {
 
   return (
     <div className="weather-app">
-      <LocationDetails city={location.city} country={location.country} />
+      <LocationDetails
+        city={location.city}
+        country={location.country}
+        errorMessage={errorMessage}
+      />
       <SearchForm
         searchText={searchText}
         setSearchText={setSearchText}
