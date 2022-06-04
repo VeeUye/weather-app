@@ -1,5 +1,3 @@
-// TODO understand why lint issue occurs
-
 import "../styles/App.css";
 import React, { useEffect, useState } from "react";
 import LocationDetails from "./LocationDetails";
