@@ -6,11 +6,13 @@ exports[`SearchForm render correctly 1`] = `
     class="search-form"
   >
     <input
+      class="input-field"
       placeholder="Enter city..."
       type="text"
       value="Nottingham"
     />
     <button
+      class="search-button"
       data-testid="button-text"
       type="submit"
     >

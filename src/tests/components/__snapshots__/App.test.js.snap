@@ -12,11 +12,13 @@ exports[`App renders correctly 1`] = `
       class="search-form"
     >
       <input
+        class="input-field"
         placeholder="Enter city..."
         type="text"
         value=""
       />
       <button
+        class="search-button"
         data-testid="button-text"
         type="submit"
       >
@@ -24,7 +26,7 @@ exports[`App renders correctly 1`] = `
       </button>
     </form>
     <div
-      class="forecast-summaries"
+      class="forecast-summaries frosted-glass"
     />
   </div>
 </DocumentFragment>

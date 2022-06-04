@@ -5,7 +5,7 @@ import "../styles/ForecastSummaries.css";
 
 function ForecastSummaries({ forecasts, onForecastSelect }) {
   return (
-    <div className="forecast-summaries">
+    <div className="forecast-summaries frosted-glass">
       {forecasts.map((forecast) => (
         <ForecastSummary
           key={forecast.date}

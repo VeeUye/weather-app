@@ -2,7 +2,6 @@
 
 import "../styles/App.css";
 import React, { useEffect, useState } from "react";
-// import background from "../images/rainy-weather.png";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
 import ForecastDetails from "./ForecastDetails";
@@ -47,13 +46,6 @@ function App() {
   };
 
   return (
-    // <div
-    //   style={{
-    //     backgroundImage: `url(${background})`,
-    //     backgroundRepeat: "no-repeat",
-    //     width: "100%",
-    //   }}
-    // >
     <div className="weather-app">
       <LocationDetails
         city={location.city}
@@ -65,6 +57,7 @@ function App() {
         setSearchText={setSearchText}
         onSubmit={handleCitySearch}
       />
+
       {!errorMessage && (
         <>
           <ForecastSummaries
@@ -75,7 +68,6 @@ function App() {
         </>
       )}
     </div>
-    // </div>
   );
 }
 

@@ -10,12 +10,18 @@ function SearchForm({ searchText, setSearchText, onSubmit }) {
   return (
     <form className="search-form">
       <input
+        className="input-field"
         type="text"
         placeholder="Enter city..."
         onChange={handleInputChange}
         value={searchText}
       />
-      <button type="submit" data-testid="button-text" onClick={onSubmit}>
+      <button
+        className="search-button"
+        type="submit"
+        data-testid="button-text"
+        onClick={onSubmit}
+      >
         Search
       </button>
     </form>
