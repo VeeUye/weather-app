@@ -8,7 +8,7 @@ exports[`ForecastDetails renders correctly 1`] = `
     <div
       class="forecast-details__date"
     >
-      Thu Jan 01 1970
+      Thursday 1st January
     </div>
     <div
       class="forecast-details__temperature"
@@ -28,7 +28,7 @@ exports[`ForecastDetails renders correctly 1`] = `
     <div
       class="forecast-details__wind"
     >
-      Wind: 60s
+      Wind: 60ene
     </div>
   </div>
 </DocumentFragment>
