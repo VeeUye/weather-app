@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #eceef1;
+  background-image: url("../images/rainy-weather.png");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 code {
