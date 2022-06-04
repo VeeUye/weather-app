@@ -7,27 +7,17 @@ function ForecastDetails({ forecast }) {
   const formattedDate = new Date(date).toDateString();
   return (
     <div className="forecast-details">
-      <div className="forecast-details__date">
-        <p className="forecast-details__date">{formattedDate}</p>
+      <div className="forecast-details__date">{formattedDate}</div>
+      <div className="forecast-details__temperature">
+        Max Temperature: {temperature.max}&deg;C
       </div>
       <div className="forecast-details__temperature">
-        <p className="forecast-details__temperature">
-          Max Temperature: {temperature.max}&deg;C
-        </p>
+        Min Temperature: {temperature.min}&deg;C
       </div>
-      <div className="forecast-details__temperature">
-        <p className="forecast-details__temperature">
-          Min Temperature: {temperature.min}&deg;C
-        </p>
-      </div>
-      <div className="forecast-details__humidity">
-        <p className="forecast-details__humidity">Humidity: {humidity}</p>
-      </div>
+      <div className="forecast-details__humidity">Humidity: {humidity}</div>
       <div className="forecast-details__wind">
-        <p className="forecast-details__wind">
-          Wind: {wind.speed}
-          {wind.direction}
-        </p>
+        Wind: {wind.speed}
+        {wind.direction}
       </div>
     </div>
   );

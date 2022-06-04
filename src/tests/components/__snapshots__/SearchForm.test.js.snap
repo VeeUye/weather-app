@@ -2,7 +2,7 @@
 
 exports[`SearchForm render correctly 1`] = `
 <DocumentFragment>
-  <div
+  <form
     class="search-form"
   >
     <input
@@ -16,6 +16,6 @@ exports[`SearchForm render correctly 1`] = `
     >
       Search
     </button>
-  </div>
+  </form>
 </DocumentFragment>
 `;

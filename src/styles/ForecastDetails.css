@@ -1,6 +1,6 @@
 .forecast-details {
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 15px;
   margin-top: 20px;
   display: flex;
@@ -8,8 +8,8 @@
   align-items: center;
 }
 
-p {
-  margin: 0 0 8px 0;
+.forecast-details > div {
+  margin: 0 0 10px 0;
 }
 
 .forecast-details__date {
