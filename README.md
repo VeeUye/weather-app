@@ -24,7 +24,7 @@ The Weather App is hosted here on GitHub Pages [https://veeuye.github.io/weather
 
 #### 1. Clone this repo
 
-[Clone Weather App](https://github.com/VeeUye/weather-app). For more information, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+Clone [Weather App](https://github.com/VeeUye/weather-app). For more information, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 #### 2. Install Node Packages
 
