@@ -42,6 +42,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+#### 4. Testing
+
+`npm test`
+
+Launches the test runner in the interactive watch mode.
+
 ## Using Weather App
 
 The app will provide a 5-day forecast for a UK city or town. Use the search form to submit a valid UK city or town.
@@ -51,13 +57,6 @@ For a detailed summary on a specific date, use the '**More details...**' link at
 ## Screenshots
 
 ![Weather App Screenshot](./readme-images/weather-app-screenshot.png?raw=true "Title")
-
-## Testing
-
-`npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Roadmap
 
