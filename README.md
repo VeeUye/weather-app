@@ -62,7 +62,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## Roadmap
 
 - [ ] Responsive, mobile first design
-- [ ] Migrate API to provide iinternational forecast functionality
+- [ ] Migrate API to provide international forecast functionality
 - [ ] Emphasise selected Forecast Summary on select
 - [ ] Display wind cardinal direction as icon
 - [ ] Display loading message when awaiting API response
