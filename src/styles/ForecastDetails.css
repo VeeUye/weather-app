@@ -21,3 +21,20 @@
   font-size: 5rem;
   font-weight: bold;
 }
+
+@media (min-width: 992px) {
+  .forecast-details {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .forecast-details__date {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .forecast-details__icon {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
