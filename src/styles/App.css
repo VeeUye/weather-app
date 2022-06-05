@@ -1,3 +1,10 @@
 .weather-app {
   margin: 0 20px;
 }
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}

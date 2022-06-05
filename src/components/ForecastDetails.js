@@ -8,7 +8,7 @@ function ForecastDetails({ forecast }) {
   const { date, icon, humidity, temperature, wind } = forecast;
   const formattedDate = moment(date).format("dddd Do MMMM");
   return (
-    <div className="forecast-details">
+    <div className="forecast-details" id="jump-link">
       <div className="forecast-details__date">{formattedDate}</div>
       <div className="forecast-details__icon" data-testid="forecast-icon">
         <WeatherIcon name="owm" iconId={icon.toString()} />

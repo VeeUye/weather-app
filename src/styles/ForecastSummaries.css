@@ -1,4 +1,15 @@
 .forecast-summaries {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+  .forecast-summaries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

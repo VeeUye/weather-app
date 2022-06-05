@@ -1,8 +1,11 @@
 .button {
-  margin: 5px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
   padding: 0;
   border: none;
   background: none;
+  font-size: 1rem;
   text-decoration: underline;
 }
 
@@ -14,16 +17,48 @@
 }
 
 .forecast-summary__date {
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .forecast-summary__icon {
+  display: flex;
+  justify-content: center;
   margin: 10px 0px;
-  font-size: 35px;
+  font-size: 3rem;
   font-weight: bold;
+}
+
+.forecast-summary__temperature {
+  display: flex;
+  justify-content: center;
+}
+
+.forecast-summary__description {
+  display: flex;
+  justify-content: center;
 }
 
 .forecast-summary {
   padding: 15px;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+  .forecast-summary__date {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .forecast-summary__icon {
+    margin: 10px 0px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .forecast-summary {
+    padding: 15px;
+  }
 }

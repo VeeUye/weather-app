@@ -17,7 +17,7 @@ function ForecastSummary(props) {
       <div className="forecast-summary__temperature">{temperature.max}˚C</div>
       <div className="forecast-summary__description">{description}</div>
       <button type="button" className="button" onClick={() => onSelect(date)}>
-        More details...
+        <a href="#jump-link">More details...</a>
       </button>
     </div>
   );
