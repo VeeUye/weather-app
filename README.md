@@ -64,6 +64,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 - [ ] Responsive, mobile first design
 - [ ] Migrate API to provide iinternational forecast functionality
 - [ ] Emphasise selected Forecast Summary on select
+- [ ] Display wind cardinal direction as icon
 
 ## Contributions
 
