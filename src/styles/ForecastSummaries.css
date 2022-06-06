@@ -7,14 +7,9 @@
   display: none;
 }
 
-.forecast-summaries > .forecast-summary:nth-child(1) {
-}
-
 .forecast-summaries > .forecast-summary:hover {
   background: rgba(255, 255, 255, 0.192);
   backdrop-filter: blur(1rem);
-  /* height: 250px;
-  width: 600px; */
   border-radius: 0.5rem;
 }
 

@@ -39,8 +39,9 @@ exports[`ForecastSummaries renders correctly 1`] = `
       >
         <a
           href="#jump-link"
+          id="#link"
         >
-          More details...
+          more details
         </a>
       </button>
     </div>
@@ -78,8 +79,9 @@ exports[`ForecastSummaries renders correctly 1`] = `
       >
         <a
           href="#jump-link"
+          id="#link"
         >
-          More details...
+          more details
         </a>
       </button>
     </div>

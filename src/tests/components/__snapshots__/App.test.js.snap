@@ -6,7 +6,7 @@ exports[`App renders correctly 1`] = `
     class="weather-app"
   >
     <h1>
-      , 
+       
     </h1>
     <form
       class="search-form"

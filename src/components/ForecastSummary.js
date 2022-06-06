@@ -18,7 +18,7 @@ function ForecastSummary(props) {
       <div className="forecast-summary__description">{description}</div>
       <button type="button" className="button" onClick={() => onSelect(date)}>
         <a href="#jump-link" id="#link">
-          More details
+          more details
         </a>
       </button>
     </div>

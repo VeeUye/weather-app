@@ -20,6 +20,6 @@ describe("LocationDetail", () => {
       <LocationDetails city={validProps.city} country={validProps.country} />
     );
 
-    expect(getByText("Manchester, UK")).toBeInstanceOf(HTMLHeadingElement);
+    expect(getByText(/Manchester/i)).toBeInstanceOf(HTMLHeadingElement);
   });
 });
