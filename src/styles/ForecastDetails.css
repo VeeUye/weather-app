@@ -1,4 +1,5 @@
 .forecast-details {
+  margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1.5rem;
@@ -13,7 +14,7 @@
 
 .forecast-details__date {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .forecast-details__icon {
@@ -21,10 +22,15 @@
   font-weight: bold;
 }
 
+.forecast-details__wind {
+  white-space: pre-wrap;
+}
+
 @media (min-width: 992px) {
   .forecast-details {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
+    margin-bottom: 1.5rem;
   }
 
   .forecast-details__date {

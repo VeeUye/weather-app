@@ -14,14 +14,16 @@ function ForecastDetails({ forecast }) {
         <WeatherIcon name="owm" iconId={icon.toString()} />
       </div>
       <div className="forecast-details__temperature">
-        Max Temperature: {temperature.max}&deg;C
+        High: {temperature.max}&deg;C
       </div>
       <div className="forecast-details__temperature">
-        Min Temperature: {temperature.min}&deg;C
+        Low: {temperature.min}&deg;C
       </div>
-      <div className="forecast-details__humidity">Humidity: {humidity}</div>
+      <div className="forecast-details__humidity">
+        Humidity: {humidity}&#37;
+      </div>
       <div className="forecast-details__wind">
-        Wind: {wind.speed}
+        Wind: {wind.speed}mph&nbsp;
         {wind.direction}
       </div>
     </div>

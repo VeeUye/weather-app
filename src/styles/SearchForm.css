@@ -1,11 +1,15 @@
 .search-form {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     "Helvetica Neue", sans-serif;
 }
 
 .input-field {
-  font-size: 16px;
+  width: 8rem;
+  font-size: 1rem;
   line-height: 20px;
   border: 1px solid #e5e4e2;
 }
@@ -17,7 +21,7 @@
   color: #222222;
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 200;
   line-height: 20px;
   margin: 0;
@@ -33,20 +37,26 @@
   width: auto;
 }
 
-.button-23:focus-visible {
+.search-button:focus-visible {
   box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
   transition: box-shadow 0.2s;
 }
 
-.button-23:active {
+.search-button:active {
   background-color: #f7f7f7;
   border-color: #000000;
   transform: scale(0.96);
 }
 
-.button-23:disabled {
+.search-button:disabled {
   border-color: #dddddd;
   color: #dddddd;
   cursor: not-allowed;
   opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .search-form {
+    display: block;
+  }
 }
