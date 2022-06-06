@@ -2,18 +2,22 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0.25rem;
   border: none;
-  background: none;
-  font-size: 1rem;
-  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(0.5rem);
+  /* height: 250px;
+  width: 600px; */
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
 }
 
-.button:hover {
-  background: rgba(255, 255, 255, 0.192);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
-  border: 1px rgba(43, 43, 43, 0.568);
+.button > a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
 }
 
 .forecast-summary__date {
