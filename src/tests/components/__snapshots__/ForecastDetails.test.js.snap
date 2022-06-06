@@ -4,11 +4,21 @@ exports[`ForecastDetails renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="forecast-details"
+    id="jump-link"
   >
     <div
       class="forecast-details__date"
     >
       Thursday 1st January
+    </div>
+    <div
+      class="forecast-details__icon"
+      data-testid="forecast-icon"
+    >
+      <i
+        class="wi wi-day-sunny"
+        name="owm"
+      />
     </div>
     <div
       class="forecast-details__temperature"

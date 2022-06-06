@@ -1,11 +1,3 @@
-/* .forecast-summaries {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-items: center;
-  flex-wrap: wrap;
-} */
-
 .forecast-summaries {
   display: flex;
   overflow-x: auto;

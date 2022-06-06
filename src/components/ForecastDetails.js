@@ -33,7 +33,7 @@ export default ForecastDetails;
 ForecastDetails.propTypes = {
   forecast: PropTypes.shape({
     date: PropTypes.number,
-    icon: PropTypes.number,
+    icon: PropTypes.string,
     temperature: PropTypes.shape({
       max: PropTypes.number,
       min: PropTypes.number,

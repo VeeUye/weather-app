@@ -1,5 +1,5 @@
 .forecast-details {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1.5rem;
   display: flex;
@@ -13,11 +13,11 @@
 
 .forecast-details__date {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .forecast-details__icon {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 

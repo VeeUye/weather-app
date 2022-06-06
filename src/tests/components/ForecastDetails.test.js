@@ -5,6 +5,7 @@ import ForecastDetails from "../../components/ForecastDetails";
 describe("ForecastDetails", () => {
   const validProps = {
     date: 1111111,
+    icon: "800",
     temperature: {
       max: 22,
       min: 12,

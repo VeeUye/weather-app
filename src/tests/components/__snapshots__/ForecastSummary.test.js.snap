@@ -34,7 +34,11 @@ exports[`ForecastSummary renders correctly 1`] = `
       class="button"
       type="button"
     >
-      More details...
+      <a
+        href="#jump-link"
+      >
+        More details...
+      </a>
     </button>
   </div>
 </DocumentFragment>
