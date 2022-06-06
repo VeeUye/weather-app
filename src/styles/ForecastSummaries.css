@@ -1,4 +1,23 @@
 .forecast-summaries {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  overflow-x: auto;
+}
+
+.forecast-summaries::-webkit-scrollbar {
+  display: none;
+}
+
+.forecast-summaries > .forecast-summary:hover {
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(1rem);
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .forecast-summaries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

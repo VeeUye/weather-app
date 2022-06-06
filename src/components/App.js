@@ -58,11 +58,11 @@ function App() {
 
       {!errorMessage && (
         <>
+          {selectedForecast && <ForecastDetails forecast={selectedForecast} />}
           <ForecastSummaries
             forecasts={forecasts}
             onForecastSelect={handleForecastSelect}
           />
-          {selectedForecast && <ForecastDetails forecast={selectedForecast} />}
         </>
       )}
     </div>

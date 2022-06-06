@@ -1,26 +1,45 @@
 .forecast-details {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 15px;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .forecast-details > div {
-  margin: 0 0 10px 0;
+  margin: 0 0 0.2rem 0;
 }
 
 .forecast-details__date {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 .forecast-details__icon {
-  padding-top: 10px;
-  font-size: 50px;
+  font-size: 4rem;
   font-weight: bold;
+}
+
+.forecast-details__wind {
+  white-space: pre-wrap;
+}
+
+@media (min-width: 992px) {
+  .forecast-details {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  .forecast-details__date {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .forecast-details__icon {
+    font-size: 3rem;
+    font-weight: bold;
+  }
 }

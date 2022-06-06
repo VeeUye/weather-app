@@ -37,7 +37,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="button"
         type="button"
       >
-        More details...
+        <a
+          href="#jump-link"
+          id="#link"
+        >
+          more details
+        </a>
       </button>
     </div>
     <div
@@ -72,7 +77,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="button"
         type="button"
       >
-        More details...
+        <a
+          href="#jump-link"
+          id="#link"
+        >
+          more details
+        </a>
       </button>
     </div>
   </div>

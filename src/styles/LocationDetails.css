@@ -1,0 +1,10 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    display: block;
+  }
+}

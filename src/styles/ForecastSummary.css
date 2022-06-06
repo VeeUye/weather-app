@@ -1,29 +1,62 @@
-.button {
-  margin: 5px 0px 0px 0px;
-  padding: 0;
-  border: none;
-  background: none;
-  text-decoration: underline;
+.forecast-summary {
+  padding: 0.8rem 0.9rem;
+  font-size: 1.2rem;
 }
 
-.button:hover {
-  background: rgba(255, 255, 255, 0.192);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
-  border: 1px rgba(43, 43, 43, 0.568);
+.forecast-summary__temperature,
+.forecast-summary__description,
+.forecast-summary__icon,
+.forecast-summary__date {
+  display: flex;
+  justify-content: center;
 }
 
 .forecast-summary__date {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .forecast-summary__icon {
   margin: 10px 0px;
-  font-size: 35px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
-.forecast-summary {
-  padding: 15px;
+.button {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  padding: 0 0.25rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(0.5rem);
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.button > a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+@media (min-width: 600px) {
+  .forecast-summary__date {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .forecast-summary__icon {
+    margin: 10px 0px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .forecast-summary {
+    padding: 15px;
+  }
 }

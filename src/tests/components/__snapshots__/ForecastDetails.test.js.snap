@@ -4,6 +4,7 @@ exports[`ForecastDetails renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="forecast-details"
+    id="jump-link"
   >
     <div
       class="forecast-details__date"
@@ -11,24 +12,33 @@ exports[`ForecastDetails renders correctly 1`] = `
       Thursday 1st January
     </div>
     <div
-      class="forecast-details__temperature"
+      class="forecast-details__icon"
+      data-testid="forecast-icon"
     >
-      Max Temperature: 22°C
+      <i
+        class="wi wi-day-sunny"
+        name="owm"
+      />
     </div>
     <div
       class="forecast-details__temperature"
     >
-      Min Temperature: 12°C
+      High: 22°C
+    </div>
+    <div
+      class="forecast-details__temperature"
+    >
+      Low: 12°C
     </div>
     <div
       class="forecast-details__humidity"
     >
-      Humidity: 80
+      Humidity: 80%
     </div>
     <div
       class="forecast-details__wind"
     >
-      Wind: 60ene
+      Wind: 60mph ene
     </div>
   </div>
 </DocumentFragment>
