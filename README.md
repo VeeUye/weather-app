@@ -54,9 +54,11 @@ The app will provide a 5-day forecast for a UK city or town. Use the search form
 
 For a detailed summary on a specific date, use the '**More details...**' link at the bottom of the forecast summary.
 
-## Screenshots
+## Media
 
-![Weather App Screenshot](./readme-images/weather-app-screenshot.png?raw=true "Title")
+![Weather App Screenshot](./readme-media/weather-app-screenshot.png?raw=true "Title")
+
+![Weather App Mobile Version](./readme-media/mobile-weather-app.mov/?raw=true "Title")
 
 ## Roadmap
 
