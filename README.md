@@ -58,7 +58,7 @@ For a detailed summary on a specific date, use the '**More details...**' link at
 
 ![Weather App Screenshot](./readme-media/weather-app-screenshot.png?raw=true "Title")
 
-![Weather App Mobile Version](./readme-media/mobile-weather-app.mov/?raw=true "Title")
+![Weather App Mobile Version](.readme-media/weather-app.mp4/?raw=true "Title")
 
 ## Roadmap
 
