@@ -58,13 +58,13 @@ For a detailed summary on a specific date, use the '**More details...**' link at
 
 ![Weather App Screenshot](./readme-media/weather-app-screenshot.png?raw=true "Title")
 
-![Weather App Mobile Version](.readme-media/weather-app.mp4/?raw=true "Title")
+![Weather App Mobile Version](./readme-media/weather-app-mobile.png?raw=true "Title")
 
 ## Roadmap
 
-- [ ] Responsive, mobile first design
+- [x] Responsive, mobile first design
 - [ ] Migrate API to provide international forecast functionality
-- [ ] Emphasise selected Forecast Summary on select
+- [x] Emphasise selected Forecast Summary on select
 - [ ] Display wind cardinal direction as icon
 - [ ] Display loading message when awaiting API response
 
