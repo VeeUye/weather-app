@@ -8,7 +8,7 @@ const getForecast = (
   setLocation,
   setErrorMessage
 ) => {
-  let endpoint = "https://mcr-codes-weather-app.herokuapp.com/forecast";
+  let endpoint = "https://mcr-codes-weather.herokuapp.com/forecast";
 
   if (searchText) {
     endpoint += `?city=${searchText}`;
