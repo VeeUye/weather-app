@@ -1,9 +1,18 @@
-.forecast-summaries {
+/* .forecast-summaries {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-items: center;
   flex-wrap: wrap;
+} */
+
+.forecast-summaries {
+  display: flex;
+  overflow-x: auto;
+}
+
+.forecast-summaries::-webkit-scrollbar {
+  display: none;
 }
 
 @media (min-width: 600px) {
