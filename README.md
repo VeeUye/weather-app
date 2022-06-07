@@ -28,7 +28,7 @@ Clone [Weather App](https://github.com/VeeUye/weather-app). For more information
 
 #### 2. Install Node Packages
 
-Use the terminal command `npm install` in the root of your local Music Library repo.
+Use the terminal command `npm install` in the root of your local Weather App repo.
 
 In the project directory, you can run:
 
