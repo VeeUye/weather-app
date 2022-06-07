@@ -45,11 +45,16 @@ function App() {
 
   return (
     <div className="weather-app">
-      <LocationDetails
-        city={location.city}
-        country={location.country}
-        errorMessage={errorMessage}
-      />
+      {location.city ? (
+        <LocationDetails
+          city={location.city}
+          country={location.country}
+          errorMessage={errorMessage}
+        />
+      ) : (
+        <h1>loading...</h1>
+      )}
+
       <SearchForm
         searchText={searchText}
         setSearchText={setSearchText}
